@@ -3,15 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>Author</key>
-	<string>TheRacerMaster</string>
+	<string>David Oakley, based on TheRacerMaster</string>
 	<key>Description</key>
-	<string>A clean theme for the Clover UEFI bootloader</string>
+	<string>A clean dark theme for the Clover UEFI bootloader</string>
 	<key>Theme</key>
 	<dict>
 		<key>Background</key>
 		<dict>
 			<key>Dark</key>
-			<false/>
+			<true/>
 			<key>Path</key>
 			<string>background.png</string>
 			<key>Type</key>
@@ -26,21 +26,6 @@
 			<key>Swap</key>
 			<true/>
 		</dict>
-		<key>Components</key>
-		<dict>
-			<key>Banner</key>
-			<false/>
-			<key>Functions</key>
-			<true/>
-			<key>Help</key>
-			<false/>
-			<key>Label</key>
-			<false/>
-			<key>MenuTitle</key>
-			<true/>
-			<key>Revision</key>
-			<false/>
-		</dict>
 		<key>Font</key>
 		<dict>
 			<key>CharWidth</key>
@@ -54,15 +39,28 @@
 		<dict>
 			<key>Big</key>
 			<string>selection_big.png</string>
-			<key>Color</key>
-			<string>0xFFFFFF80</string>
 			<key>OnTop</key>
 			<false/>
+			<key>Color</key>
+			<string>0x33333380</string>
 			<key>Small</key>
 			<string>selection_small.png</string>
 		</dict>
+		<key>Components</key>
+		<dict>
+			<key>Banner</key>
+			<false/>
+			<key>Functions</key>
+			<true/>
+			<key>Label</key>
+			<true/>
+			<key>Revision</key>
+			<false/>
+			<key>MenuTitle</key>
+			<true/>
+		</dict>
 	</dict>
 	<key>Year</key>
-	<string>2015</string>
+	<string>2019</string>
 </dict>
 </plist>
