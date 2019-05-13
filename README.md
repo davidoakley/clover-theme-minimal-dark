@@ -1,5 +1,5 @@
-# Clover Minimal Theme
-A clean theme for [the Clover UEFI bootloader](http://sourceforge.net/projects/cloverefiboot), based off [rEFInd-minimal by Evan Purkhiser](https://github.com/EvanPurkhiser/rEFInd-minimal).
+# Clover Minimal Dark Theme
+A clean dark theme for [the Clover UEFI bootloader](http://sourceforge.net/projects/cloverefiboot), based off [rEFInd-minimal by Evan Purkhiser](https://github.com/EvanPurkhiser/rEFInd-minimal).
 
 ![Screenshot of the theme](http://i.imgbox.com/4gssLdSI.png)
 
@@ -9,7 +9,7 @@ Clone or download the ZIP of this repo to your Clover theme directory (usually i
 <key>GUI</key>
 <dict>
 	<key>Theme</key>
-	<string>clover-theme-minimal</string>
+	<string>clover-theme-minimal-dark</string>
 </dict>
 ```
 By default, labels for the boot entries are hidden. If you would like to enable them, you can edit the theme.plist file in this repo by changing the `Label` key to `true`.
